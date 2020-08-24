@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0193dc70-6ae5-4f52-aaa7-037fe7909b7e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="fe302d6a-2c4f-4708-a6c7-739c765a25fb" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="7d781f60-c09e-4a96-8479-f6283f6775dc" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="5b1b30bb-d64c-4559-9ec2-66ad455e048a" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="49be8e29-1b43-4568-8e99-965fc8806d1b" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?disco" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="853d63fd-204e-4d6c-8207-ddc4b5236896" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="415cbdde-5083-4e66-bf0c-fee4d05e6dd7" SourceId="1" SourceUrl="http://sit323lb2-2035790830.us-east-1.elb.amazonaws.com/WCFServiceAlg2/Service.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
